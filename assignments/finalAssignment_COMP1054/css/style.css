@@ -1,0 +1,201 @@
+/*Custom Font Styling*/
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.galindo-regular {
+    font-family: "Galindo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Styling for website body */
+body{
+    background-color: #414548;
+    margin: 0px;
+    min-height: 100vh;
+    position: relative;
+}
+
+/*Styling for navigation bar */
+.navbar{
+    background-color:#ff4554;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+}
+.navbar div{
+
+    display: flex;
+    height: 50%;
+}
+.navbar div img{
+    margin: 10px;
+    width: 100px;
+    height: auto;
+}
+.navbar nav{
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.navbar nav menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.navbar nav menu li{
+    padding: 0px 10px;
+}
+.navbar nav menu li a{
+    color: #0f0f0f;
+    font-family: "Galindo";
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+/*Styling for slogan beneath navigation bar*/
+.slogan{
+    background-color:#00c3e3;
+    text-align: center;
+    margin:0px; 
+    height: 50px;
+}
+.slogan h1{
+    font-family: "Bungee";
+    margin-top: 0px;
+    color:azure;
+    text-shadow: 3px 2px black;
+}
+
+/*Styling for console image*/
+.console{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.console  img{
+    margin-top: 15px;
+    width: 75%;
+}
+.game-caption{
+    text-align: center;
+    font-family: "Bungee";
+    background-color: #00c3e3;
+    margin:0px;
+}
+.game-caption h2{
+    margin-bottom: 0px;
+}
+/*Styling for switch game "cards"*/
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#989898;
+    margin-bottom: 0px;
+}
+.games div{
+    text-align: center;
+    border-style: none;
+    border-radius: 15px;
+    border-width: 2px;
+    margin: 10px;
+    width: 25%;
+}
+/*Hover effect for game cards */
+.games div:hover{
+    background-color: #00c3e3;
+}
+.games div:hover img{
+    transform: scale(1.1) rotate(-5deg);
+}
+.games h3{
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-family: "Galindo";
+    margin-top: 0px;
+}
+.games p{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.games div img{
+    height: auto;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+/*Styling for contact form*/
+.contact-container{
+    display: grid;
+    place-items: center;
+}
+.contact-container h1{
+    text-align: center;
+    width: 100%;
+    background-color: #8ec801;
+    font-family: "Bungee";
+    margin-top: 0px;
+    color:azure;
+    text-shadow: 3px 2px black; 
+}
+.contact{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ff4554;
+}
+.contact #name,#email{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.contact #subject-line{
+    width: 75%;
+    margin-bottom: 10px;
+}
+.contact #email-content{
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+.about-us{
+    background-color: #00c3e3;
+    margin-bottom: 0px;
+}
+.about-us h2{
+    background-color: #ff4554;
+    text-align: center;
+    font-family: 'Bungee';
+    color: white;
+    text-shadow: 3px 2px #0f0f0f;
+}
+.about-us p{
+    text-align: center;
+    margin: 25px;
+}
+/*Styling for website footer*/
+footer{
+    background-color: #ff4554;
+    height: 40px;
+    width: 100%;
+}
+footer p{
+    margin-top: 5px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 8px;
+    
+}
